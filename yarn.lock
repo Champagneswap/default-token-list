@@ -44,11 +44,10 @@
 
 "@champagneswap/core@^2.0.0-canary.2":
   version "2.0.0-canary.2"
-  resolved "https://registry.yarnpkg.com/@champagneswap/core/-/core-2.0.0-canary.2.tgz#b5a5e9e9d03558f51d42b00b22f3f55f9b56a482"
-  integrity sha512-q3KOFOwkYBcyjww1C+0UOyXULMe0JDAXlXSCzP+b3vAc7Z8qgxtLSb7OPiPHacJ2KMD76c1CZlIw0iwIoZZl6Q==
+ 
   dependencies:
-    "@sushiswap/core-sdk" "^1.0.0-canary.47"
-    "@sushiswap/sdk" "^5.0.0-canary.116"
+    "@champagneswap/core-sdk" "^1.0.0-canary.47"
+    "@champagneswap/sdk" "^5.0.0-canary.119"
     fs "0.0.1-security"
     moralis "^1.0.1"
     next "^12.0.8"
@@ -57,8 +56,7 @@
 
 "@champagneswap/sdk@^5.0.0-canary.119":
   version "5.0.0-canary.119"
-  resolved "https://registry.yarnpkg.com/@champagneswap/sdk/-/sdk-5.0.0-canary.119.tgz#7f61e9af1213f2a0db5a6979b9fa9664d30ca014"
-  integrity sha512-6Eoz052YuGI696A0Y7nFzlqF8/u/2kQ/UASMJRUMSLXAb3iWk0qKzKg4/AAElE6EibMISkFSg030FSCIJLDPYA==
+ 
   dependencies:
     "@champagneswap/core" "^2.0.0-canary.2"
     "@ethersproject/abi" "^5.4.0"
@@ -722,10 +720,9 @@
   dependencies:
     "@octokit/openapi-types" "^7.3.5"
 
-"@sushiswap/core-sdk@^1.0.0-canary.47":
+"@champagneswap/core-sdk@^1.0.0-canary.47":
   version "1.0.0-canary.63"
-  resolved "https://registry.yarnpkg.com/@sushiswap/core-sdk/-/core-sdk-1.0.0-canary.63.tgz#4352ab9afc5bbd786f775a6352f47044f386d33c"
-  integrity sha512-BCvyhquF/6pzNFwZ7W3V9f2qKQ1HMFSi6x4EJ6MeBXbXGgNRwFuRlOvVddRYBP6gMM6bYM3XD6xUQS2jm3N5Kw==
+  
   dependencies:
     "@ethersproject/address" "^5.4.0"
     "@ethersproject/bignumber" "^5.4.0"
@@ -738,15 +735,13 @@
     tiny-warning "^1.0.0"
     toformat "^2.0.0"
 
-"@sushiswap/core@^2.0.0-canary.1":
-  version "2.0.0-canary.1"
-  resolved "https://registry.yarnpkg.com/@sushiswap/core/-/core-2.0.0-canary.1.tgz#91c938668282d463e4fce6e0cf4d320ce5f3768f"
-  integrity sha512-6YFT4EKgm0XgfwCBsKx5HrDtRI6EvhZHipjBKegdTV0b2zKuXnmdyZ+RwPCr0mCKq2pKB0qIiqCxfbgXYDlLCQ==
+"@champagneswap/core@^2.0.0-canary.2":
+  version "2.0.0-canary.2"
+  
 
-"@sushiswap/sdk@^5.0.0-canary.116":
-  version "5.0.0-canary.116"
-  resolved "https://registry.yarnpkg.com/@sushiswap/sdk/-/sdk-5.0.0-canary.116.tgz#cdf303590dc0a174a0332c76b15ee8a0d92a8e4f"
-  integrity sha512-EC25LvMGIyhmMJr2vbJ1HWFSUgKHq7IJp+Esemokx1RIdyrkW2Hwo4RWSzkAzWG4+lDJC/aI79iH4riiEk5tng==
+"@champagneswap/sdk@^5.0.0-canary.119":
+  version "5.0.0-canary.119"
+  
   dependencies:
     "@ethersproject/abi" "^5.4.0"
     "@ethersproject/abstract-signer" "^5.4.0"
@@ -760,7 +755,7 @@
     "@ethersproject/signing-key" "^5.4.0"
     "@ethersproject/solidity" "^5.4.0"
     "@ethersproject/transactions" "^5.4.0"
-    "@sushiswap/core" "^2.0.0-canary.1"
+    "@champagneswap/core" "^2.0.0-canary.2"
     big.js "^6.1.0"
     decimal.js-light "^2.5.0"
     eip-712 "^0.4.3"
