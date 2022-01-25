@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/jq/.nvm/versions/node/v14.18.3/bin/node /usr/local/Cellar/yarn/1.22.17_2/libexec/bin/yarn.js install
+  /Users/jq/.nvm/versions/node/v14.18.3/bin/node /usr/local/Cellar/yarn/1.22.17_2/libexec/bin/yarn.js
 
 PATH: 
   /Users/jq/.nvm/versions/node/v14.18.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
@@ -29,7 +29,7 @@ Trace:
 npm manifest: 
   {
     "name": "@champagneswap/default-token-list",
-    "version": "20.19.2",
+    "version": "20.20.0",
     "description": "◦ The ChampagneSwap default token list",
     "main": "build/champagneswap-default.tokenlist.json",
     "scripts": {
@@ -122,7 +122,7 @@ Lockfile:
   
   "@champagneswap/core@^2.0.0-canary.2":
     version "2.0.0-canary.2"
-   
+    
     dependencies:
       "@champagneswap/core-sdk" "^1.0.0-canary.47"
       "@champagneswap/sdk" "^5.0.0-canary.119"
@@ -134,7 +134,8 @@ Lockfile:
   
   "@champagneswap/sdk@^5.0.0-canary.119":
     version "5.0.0-canary.119"
-   
+    resolved "https://registry.yarnpkg.com/@champagneswap/sdk/-/sdk-5.0.0-canary.119.tgz#7f61e9af1213f2a0db5a6979b9fa9664d30ca014"
+    integrity sha512-6Eoz052YuGI696A0Y7nFzlqF8/u/2kQ/UASMJRUMSLXAb3iWk0qKzKg4/AAElE6EibMISkFSg030FSCIJLDPYA==
     dependencies:
       "@champagneswap/core" "^2.0.0-canary.2"
       "@ethersproject/abi" "^5.4.0"
@@ -799,8 +800,7 @@ Lockfile:
       "@octokit/openapi-types" "^7.3.5"
   
   "@champagneswap/core-sdk@^1.0.0-canary.47":
-    version "1.0.0-canary.63"
-    
+   
     dependencies:
       "@ethersproject/address" "^5.4.0"
       "@ethersproject/bignumber" "^5.4.0"
@@ -818,7 +818,7 @@ Lockfile:
     
   
   "@champagneswap/sdk@^5.0.0-canary.119":
-    version "5.0.0-canary.119"
+    version "5.0.0-canary.116"
     
     dependencies:
       "@ethersproject/abi" "^5.4.0"

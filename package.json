@@ -1,6 +1,6 @@
 {
   "name": "@champagneswap/default-token-list",
-  "version": "20.19.2",
+  "version": "20.20.0",
   "description": "◦ The ChampagneSwap default token list",
   "main": "build/champagneswap-default.tokenlist.json",
   "scripts": {
